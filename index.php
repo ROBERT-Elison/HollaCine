@@ -50,7 +50,7 @@
             echo '<div class="miniature"><img class="img" src="' . $donnees['miniature'] . '"></div>';
             echo '<div class="description">';
             echo '<span class="infos">' . $donnees['synopsis'] . '<span> </br>';
-            echo '<span class="infos">Acteurs: ' . $donnees['realisateur'] . '<span> </br>';
+            echo '<span class="infos">Acteurs: ' . $donnees['acteur'] . '<span> </br>';
             echo '<span class="infos">Réalisé par ' . $donnees['realisateur'] . '<span> </br>';
             echo '<span class="infos">Genre: ' . $donnees['genre'] . '<span>';
             echo '</div>';
@@ -73,7 +73,7 @@
             echo '<div class="miniature"><img class="img" src="' . $donnees['miniature'] . '"></div>';
             echo '<div class="description">';
             echo '<span class="infos">' . $donnees['synopsis'] . '<span> </br>';
-            echo '<span class="infos">Acteurs: ' . $donnees['realisateur'] . '<span> </br>';
+            echo '<span class="infos">Acteurs: ' . $donnees['acteur'] . '<span> </br>';
             echo '<span class="infos">Réalisé par ' . $donnees['realisateur'] . '<span> </br>';
             echo '<span class="infos">Genre: ' . $donnees['genre'] . '<span>';
             echo '</div>';
@@ -95,7 +95,7 @@
             echo '<div class="miniature"><img class="img" src="' . $donnees['miniature'] . '"></div>';
             echo '<div class="description">';
             echo '<span class="infos">' . $donnees['synopsis'] . '<span> </br>';
-            echo '<span class="infos">Acteurs: ' . $donnees['realisateur'] . '<span> </br>';
+            echo '<span class="infos">Acteurs: ' . $donnees['acteur'] . '<span> </br>';
             echo '<span class="infos">Réalisé par ' . $donnees['realisateur'] . '<span> </br>';
             echo '<span class="infos">Genre: ' . $donnees['genre'] . '<span>';
             echo '</div>';
