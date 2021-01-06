@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9ba4b4;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #394867;
+}
+
+h2{
+    text-align: center;
+    background-color: #394867;
+    color: white;
+    padding: 8px ;
+}
+
+.ajouter_film{
+    width: 35%;
+    height: auto;
+}
+
+.modifier_film{
+    width: 35%;
+    height: auto;
+    border-right: 2px solid #f1f6f9;
+    border-left: 2px solid #f1f6f9;
+}
+
+.supprimer_film{
+    width: 30%;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    margin: 20px auto 20px auto;
+    background-color: #f1f6f9;
+    border: 2px solid #14274E;
+    box-shadow: 2px 2px 5px #14274E;
+    border-radius: 4px;
+    padding-left: 10px;
+}
